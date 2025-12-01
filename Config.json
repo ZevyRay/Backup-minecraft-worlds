@@ -1,0 +1,34 @@
+{
+    "Params":[
+        {
+            "Name": "Worlds",
+            "Type": "List",
+            "DefaultValue": ["YOUR WORLD NAME HERE"]
+        },
+        {
+            "Name":"Length",
+            "Type":"Integer",
+            "DefaultValue":10
+        },
+        {
+            "Name": "BackupDestination",
+            "Type": "String",
+            "DefaultValue": "Z:\\minecraft\\BackupWorlds"
+        },
+        {
+            "Name": "MinecraftSavePath",
+            "Type": "String",
+            "DefaultValue": "C:\\Users\\YOURNAME\\AppData\\Roaming\\.minecraft\\saves"
+        },
+        {
+            "Name": "TimestampFormat",
+            "Type": "String",
+            "DefaultValue": "Copy.%d.%m.%Y"
+        },
+        {
+            "Name": "LogFile",
+            "Type": "String",
+            "DefaultValue": "backup.log"
+        }
+    ]
+}
