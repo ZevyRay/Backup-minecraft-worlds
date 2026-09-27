@@ -1,0 +1,30 @@
+{
+    "Settings": {
+        "MaxBackups": 10,
+        "TimestampFormat": "Copy.%d.%m.%Y_%H-%M-%S",
+        "LogFile": "backup.log",
+        "CLI": true,
+        "Summary": true,
+        "SummaryFile": "Summary.txt"
+    },
+    "Locations": [
+        {
+            "Name": "Vanilla Minecraft",
+            "Path": "/home/insidlnfo/.var/app/com.lunarclient.LunarClient/.minecraft/saves",
+            "BackupDestination": "/mnt/minecraft-backups/MinecraftBackupFolderForScript",
+            "Worlds": [
+                "",
+                ""
+            ]
+        },
+        {
+            "Name": "Prism Worlds",
+            "Path": "/home/insidlnfo/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/COBBLEVERSE - Pokemon Adventure [Cobblemon]/minecraft/saves",
+            "BackupDestination": "/mnt/minecraft-backups/MinecraftBackupFolderForScript",
+            "Worlds": [
+                "Supertrainer",
+                ""
+            ]
+        }
+    ]
+}
