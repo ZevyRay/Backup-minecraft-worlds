@@ -3,7 +3,7 @@
         {
             "Name": "Worlds",
             "Type": "List",
-            "DefaultValue": ["YOUR WORLD NAME HERE"]
+            "DefaultValue": ["Legendary Trainer", "man sruvival"]
         },
         {
             "Name":"Length",
@@ -13,12 +13,13 @@
         {
             "Name": "BackupDestination",
             "Type": "String",
-            "DefaultValue": "Z:\\minecraft\\BackupWorlds"
+            "DefaultValue": "/mnt/minecraft-backups/MinecraftBackupFolderForScript"
         },
         {
             "Name": "MinecraftSavePath",
             "Type": "String",
-            "DefaultValue": "C:\\Users\\YOURNAME\\AppData\\Roaming\\.minecraft\\saves"
+            "DefaultValue": "/home/insidlnfo/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/COBBLEVERSE - Pokemon Adventure [Cobblemon]/minecraft/saves"
+            
         },
         {
             "Name": "TimestampFormat",
